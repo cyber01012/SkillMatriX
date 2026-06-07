@@ -1,0 +1,79 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: SkillmatriX-user-service
+
+  # Activate local profile — loads application-local.yml (which contains secrets)
+  # Override via env var: SPRING_PROFILES_ACTIVE=local
+  profiles:
+    active: local
+
+  datasource:
+    url: ${spring.datasource.url}
+    username: ${spring.datasource.username}
+    password: ${spring.datasource.password}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${spring.mail.username}
+    password: ${spring.mail.password}
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.debug: true
+
+    logging:
+      level:
+        root: INFO
+        org.springframework.security: INFO
+        org.springframework.web: INFO
+        javax.mail: DEBUG
+        com.sun.mail.smtp: DEBUG
+
+    security:
+      oauth2:
+        client:
+          registration:
+            google:
+              client-id: ${spring.security.oauth2.client.registration.google.client-id}
+              client-secret: ${spring.security.oauth2.client.registration.google.client-secret}
+              scope:
+                - email
+                - profile
+              redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+
+jwt:
+  secret: ${jwt.secret}
+  issuer: SkillmatriX
+  access-expiration-ms: 3600000       # 1 hour
+  refresh-expiration-ms: 604800000    # 7 days
+
+  web:
+    cors:
+      mappings:
+        "/**":
+          allowed-origins:
+            - http://localhost:3000
+            - http://127.0.0.1:3000
+            - http://localhost:5173
+            - http://127.0.0.1:5173
+          allowed-origin-patterns:
+            - https://*.vercel.app
+            - https://*.netlify.app
+          allowed-methods: "GET,POST,PUT,PATCH,DELETE,OPTIONS"
+          allowed-headers: "*"
+          allow-credentials: true
+          max-age: 3600
