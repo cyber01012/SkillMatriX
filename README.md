@@ -6,15 +6,17 @@
 ![Next.js 15](https://img.shields.io/badge/Next.js%2015-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot%203-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Java 17](https://img.shields.io/badge/Java%2017-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-SkillMatriX is a full-stack platform designed to analyze technical skillsets, quantify skill gaps, and provide data-driven insights for developers and technical teams.
+SkillMatriX is a full-stack platform designed to analyze technical skillsets, quantify skill gaps, and provide data-driven insights for developers and technical teams, backed by a **MySQL** relational database engine.
 
 ---
 
 ## 🌟 Key Features
 
 * **⚡ Skill Gap Analysis**: Intelligent breakdown of existing competencies vs target job roles.
+* **🐬 MySQL Relational Database**: Structured database schema storing developer profiles, skill metrics, course mappings, and historical matrix progress.
 * **📊 Interactive Matrix Dashboard**: Visual representations of skill proficiencies, strengths, and areas for improvement.
 * **🎯 Career Growth Roadmap**: Personalized recommendations for courses, projects, and certifications.
 * **💻 Monorepo Architecture**: Clean separation between Next.js frontend (`frontend2`) and Spring Boot backend (`backend1`).
@@ -33,6 +35,7 @@ SkillMatriX/
 │
 └── backend1/              # Spring Boot / Java Backend Service
     ├── skillanalyzer/     # Core Skill Analyzer engine microservice
+    │   └── src/main/resources/application.properties  # MySQL DB configuration
     └── uploads/           # File upload storage
 ```
 
@@ -45,11 +48,26 @@ SkillMatriX/
 * **Node.js** (v18.x or higher)
 * **npm** or **yarn** / **pnpm**
 * **Java Development Kit (JDK 17)**
+* **MySQL Server** (v8.0+)
 * **Maven** (v3.8+)
 
 ---
 
-### 1. Frontend Setup (`frontend2`)
+### 1. Database Configuration (MySQL)
+
+Ensure MySQL is running. Configure connection settings in `backend1/skillanalyzer/src/main/resources/application.properties`:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/skillmatrix_db?useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+```
+
+---
+
+### 2. Frontend Setup (`frontend2`)
 
 ```bash
 # Navigate to the frontend directory
@@ -66,7 +84,7 @@ Open `http://localhost:3000` in your browser to view the frontend application.
 
 ---
 
-### 2. Backend Setup (`backend1`)
+### 3. Backend Setup (`backend1`)
 
 ```bash
 # Navigate to the backend directory
@@ -86,7 +104,8 @@ The backend server will run on `http://localhost:8080`.
 ## 🛠️ Built With
 
 * **Frontend**: Next.js 15, React 19, TypeScript, Tailwind CSS, Lucide React
-* **Backend**: Java 17, Spring Boot 3, Maven
+* **Backend**: Java 17, Spring Boot 3, Spring Data JPA, Maven
+* **Database**: MySQL Relational Database
 * **Tools**: ESLint, PostCSS
 
 ---
