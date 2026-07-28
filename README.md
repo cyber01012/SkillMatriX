@@ -16,7 +16,7 @@ SkillMatriX is a full-stack platform designed to analyze technical skillsets, qu
 ## 🌟 Key Features
 
 * **⚡ Skill Gap Analysis**: Intelligent breakdown of existing competencies vs target job roles.
-* **🐬 MySQL Relational Database**: Structured database schema storing developer profiles, skill metrics, course mappings, and historical matrix progress.
+* **🐬 MySQL Relational Database**: Structured database schema storing developer profiles, skill metrics, roadmaps, and historical matrix progress.
 * **📊 Interactive Matrix Dashboard**: Visual representations of skill proficiencies, strengths, and areas for improvement.
 * **🎯 Career Growth Roadmap**: Personalized recommendations for courses, projects, and certifications.
 * **💻 Monorepo Architecture**: Clean separation between Next.js frontend (`frontend2`) and Spring Boot backend (`backend1`).
