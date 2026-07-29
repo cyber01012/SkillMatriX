@@ -1,3 +1,12 @@
+<img width="923" height="398" alt="skill10" src="https://github.com/user-attachments/assets/9ae90842-11d1-441c-ac58-5e2658a63835" />
+<img width="949" height="413" alt="skill9" src="https://github.com/user-attachments/assets/1389724e-56ae-4f3c-844b-a28a3dbd212f" />
+<img width="697" height="398" alt="skill8" src="https://github.com/user-attachments/assets/3ff31783-5f0c-46ee-9af1-1b27c5b7262d" />
+<img width="586" height="292" alt="skill7" src="https://github.com/user-attachments/assets/6fc8b86e-f6fd-431a-b257-ef70ec838e37" />
+<img width="915" height="412" alt="skill6" src="https://github.com/user-attachments/assets/f4d02fc9-13d7-42d3-b8e7-d089092a9d0b" />
+<img width="931" height="350" alt="skill5" src="https://github.com/user-attachments/assets/8a099741-9433-4cc2-ac7b-10814b6e7fd6" />
+<img width="440" height="208" alt="skill4" src="https://github.com/user-attachments/assets/86946357-871e-44aa-b46e-88e5cfd61031" />
+<img width="940" height="401" alt="skill3" src="https://github.com/user-attachments/assets/2775c90b-f415-4bdd-a65e-3e3e5943b09a" />
+<img width="916" height="395" alt="skill2" src="https://github.com/user-attachments/assets/5bb0874a-863b-4dae-a7b5-128e9d15e75f" />
 # 🔮 SkillMatriX<img width="938" height="398" alt="skillmatrix" src="https://github.com/user-attachments/assets/69f09600-2361-4bcc-adfd-63a7d98096e8" />
 
 
