@@ -123,14 +123,15 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 PICTURES
-<img width="923" height="398" alt="skill10" src="https://github.com/user-attachments/assets/293f30de-558c-40d3-be28-ce2eb19ae125" />
-<img width="949" height="413" alt="skill9" src="https://github.com/user-attachments/assets/894f24a6-5dfe-4da4-839b-1f8f024a5117" />
-<img width="697" height="398" alt="skill8" src="https://github.com/user-attachments/assets/44f6297f-227e-49e4-9572-c7cc4c947f80" />
-<img width="586" height="292" alt="skill7" src="https://github.com/user-attachments/assets/10aa35e8-432c-4266-a576-47c6e512834e" />
-<img width="915" height="412" alt="skill6" src="https://github.com/user-attachments/assets/99b2f3af-18dd-4454-afdb-8c5fef18f5c2" />
-<img width="931" height="350" alt="skill5" src="https://github.com/user-attachments/assets/040e7886-7b78-4a9e-9041-76f193981fa0" />
-<img width="440" height="208" alt="skill4" src="https://github.com/user-attachments/assets/cb136919-0a71-4526-8368-00557f95282a" />
-<img width="940" height="401" alt="skill3" src="https://github.com/user-attachments/assets/11e2cdb3-3a60-4a7c-87c7-f13f31ac5702" />
-<img width="916" height="395" alt="skill2" src="https://github.com/user-attachments/assets/e5abfc5e-b0f9-40c8-abad-cc15b68671c2" />
-<img width="938" height="398" alt="skillmatrix" src="https://github.com/user-attachments/assets/6d1070e7-86a6-4d23-b774-a52899cc9a7d" />
+<img width="949" height="413" alt="skill9" src="https://github.com/user-attachments/assets/1939aced-675e-4f2d-bff2-d0ac319e1f68" />
+<img width="697" height="398" alt="skill8" src="https://github.com/user-attachments/assets/7544b608-ac50-47dd-8ae0-f7ad825d7b1b" />
+<img width="586" height="292" alt="skill7" src="https://github.com/user-attachments/assets/0cd94b05-4f52-4324-b9d0-346d8de5eefc" />
+<img width="915" height="412" alt="skill6" src="https://github.com/user-attachments/assets/b0ae2bb3-8d61-4dfa-b392-7e2c06b5ba3d" />
+<img width="931" height="350" alt="skill5" src="https://github.com/user-attachments/assets/dcfe9e41-c154-4eca-8022-e8911ff232cb" />
+<img width="440" height="208" alt="skill4" src="https://github.com/user-attachments/assets/928babda-e604-4a7e-9e06-6a45c37449d7" />
+<img width="940" height="401" alt="skill3" src="https://github.com/user-attachments/assets/f8c10b90-51d2-49ef-9324-e7a19d23b8ea" />
+<img width="916" height="395" alt="skill2" src="https://github.com/user-attachments/assets/22eae0b0-3ea6-4d2b-8b61-b8c4af7bf800" />
+<img width="938" height="398" alt="skillmatrix" src="https://github.com/user-attachments/assets/e1e9cd10-7d84-413e-996a-5f96b0540211" />
+<img width="923" height="398" alt="skill10" src="https://github.com/user-attachments/assets/0523b50a-4e58-4f3e-9fb8-15fc5477e5fd" />
+
 
