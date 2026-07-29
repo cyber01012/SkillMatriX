@@ -1,4 +1,5 @@
-# 🔮 SkillMatriX
+# 🔮 SkillMatriX<img width="938" height="398" alt="skillmatrix" src="https://github.com/user-attachments/assets/69f09600-2361-4bcc-adfd-63a7d98096e8" />
+
 
 > **AI-Powered Skill Gap Analysis & Career Matrix Platform**
 
